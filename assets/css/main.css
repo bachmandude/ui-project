@@ -11,9 +11,12 @@
 }
 
 body {
-  display:flex;
   background: linear-gradient(90deg, rgba(21,21,21,1) 1%, rgba(48,48,48,1) 100%);
-    text-align: center;
+}
+
+.container-main {
+  display:flex;
+      text-align: center;
     justify-content: center;
     align-items: center;
 }
