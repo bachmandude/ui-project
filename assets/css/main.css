@@ -33,6 +33,7 @@ body {
   display: inline-block;
   height:32px;
   background-color: rgb(22,22,22);
+  font-family: "basis33", monospace;
 }
 .px-search {
   height:64px;
