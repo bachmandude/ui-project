@@ -2,3 +2,6 @@
   border-radius: 10px;
   box-shadow: 5px 5px;
 }
+body {
+  background: linear-gradient(90deg, rgba(50,50,50,1) 2%, rgba(136,136,136,1) 50%, rgba(50,50,50,1) 100%);
+}
