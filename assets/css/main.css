@@ -1,9 +1,9 @@
 .top-header {
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(90deg, rgba(21,21,21,1) 1%, rgba(61,52,0,1) 100%);
+  background: rgb(22,22,22);;
 }
 
 body {
-  background: dark-gray;
+  background: linear-gradient(90deg, rgba(21,21,21,1) 1%, rgba(48,48,48,1) 100%);
 }
