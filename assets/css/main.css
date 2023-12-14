@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "basis33";
+  src: url("/assets/fonts/basis33.ttf") format('truetype');
+}
+
 .top-header {
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -12,4 +17,5 @@ body {
   font-size: 200px;
   color:white;
   text-align:center;
+  font-family: "basis33", monospace;
 }
