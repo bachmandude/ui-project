@@ -11,7 +11,11 @@
 }
 
 body {
+  display:flex;
   background: linear-gradient(90deg, rgba(21,21,21,1) 1%, rgba(48,48,48,1) 100%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .an-title {
@@ -27,6 +31,7 @@ body {
 }
 .px-search {
   height:64px;
+  width: 50vw;
   background-color: rgb(22,22,22);
   align-items:center;
 }
