@@ -2,3 +2,7 @@
   font-family: "basis33";
   src:"/assets/fonts/basis33.ttf" format('truetype');
 }
+
+.an-title {
+  font-family: "basis33", monospace;
+}
