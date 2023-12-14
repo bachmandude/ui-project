@@ -36,6 +36,7 @@ body {
 .px-search {
   height:64px;
   width: 50vw;
+  margin-left:50vw;
   background-color: rgb(22,22,22);
   text-align:center;
   align-items:center;
