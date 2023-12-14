@@ -7,6 +7,7 @@
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   background: rgb(22,22,22);
+  display: inline-block;
 }
 
 body {
