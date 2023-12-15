@@ -25,6 +25,7 @@ body {
   background:gray;
 }
 .an-card h1 {
+  font-size:20px;
   font-family: "basis33";
   color:white;
 }
