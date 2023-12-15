@@ -23,7 +23,7 @@ body {
   margin-top:15px;
   width:145px;
   height:200px;
-  background:gray;
+  background: linear-gradient(90deg, rgba(22,22,22,1) 0%, rgba(0,52,88,1) 100%);
 }
 .an-card h1 {
   font-size:20px;
