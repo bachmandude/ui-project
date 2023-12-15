@@ -16,6 +16,7 @@ body {
 
 
 .an-card {
+  text-align:center;
   align-items:center;
   border-radius:15px;
   margin-left:10px;
