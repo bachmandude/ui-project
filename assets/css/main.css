@@ -20,6 +20,10 @@ body {
   height:200px;
   background:gray;
 }
+.an-card h1 {
+  font-family: "basis33";
+  color:white;
+}
 .wave {
       position: absolute;
       bottom: 0;
