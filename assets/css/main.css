@@ -16,6 +16,9 @@ body {
 
 
 .an-card {
+  border-radius:15px;
+  margin-left:10px;
+  margin-top:15px;
   width:145px;
   height:200px;
   background:gray;
