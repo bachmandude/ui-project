@@ -20,6 +20,7 @@ a {
 }
 
 .an-card {
+  float:left;
   text-align:center;
   align-items:center;
   border-radius:15px;
