@@ -28,6 +28,10 @@ body {
   font-family: "basis33";
   color:white;
 }
+.an-card img {
+  width:120px;
+  height:120px;
+}
 
 .wave {
       position: absolute;
