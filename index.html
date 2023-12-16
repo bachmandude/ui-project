@@ -489,7 +489,62 @@
 	        <div class="an-card"><a href="./launcher.html#pokemon-xy"><h1 class="an-gn">Pokemon X&Y</h1></a></div>
     </div>
  <script>$(".an-card").click(function() {window.location = $(this).find("a").attr("href"); return false;});</script>
-	  <script>var searchTerm = document.getElementByClassName("an-gn").value;</script>
+	  <script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementByClassName("container");
+  li = ul.getElementsByClassName('an-card');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+function sort() {
+          
+            // Declaring Variables
+            var geek_list, i, run, li, stop;
+          
+            // Taking content of list as input
+            geek_list = document.getElementByClassName("container");
+          
+            run = true;
+          
+            while (run) {
+                run = false;
+                li = geek_list.getElementsByClassName("an-card");
+          
+                // Loop traversing through all the list items
+                for (i = 0; i < (li.length - 1); i++) {
+                    stop = false;
+                    if (li[i].innerHTML.toLowerCase() > 
+                        li[i + 1].innerHTML.toLowerCase()) {
+                        stop = true;
+                        break;
+                    }
+                }
+          
+                /* If the current item is smaller than 
+                   the next item then adding it after 
+                   it using insertBefore() method */
+                if (stop) {
+                    li[i].parentNode.insertBefore(
+                            li[i + 1], li[i]);
+          
+                    run = true;
+                }
+            }
+        }
+</script>
   </body>
 
 </html>
