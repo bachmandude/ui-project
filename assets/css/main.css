@@ -43,6 +43,9 @@ a {
 .an-card:hover {
   cursor:grab;
 }
+.an-card:active {
+  cursor:grabbing;
+}
 
 .wave {
       position: absolute;
