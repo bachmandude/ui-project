@@ -40,6 +40,9 @@ a {
   width:120px;
   height:120px;
 }
+.an-card:hover {
+  cursor:grab;
+}
 
 .wave {
       position: absolute;
