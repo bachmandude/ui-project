@@ -6,6 +6,10 @@
   </head>
 
   <body>
+	  <script>$(".an-card").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+});</script>
     <div class="wavy"></div>
     <header class="top-header">
       <div class="logo" style="display: inline-block;"><a href="/"><img src="./assets/img/symbol.png" style="border-radius:10px;" width="32px" height="32px"></a></div>
@@ -483,6 +487,7 @@
             <div class="an-card"><a href="./launcher.html#zelda_minish">The Legend of Zelda: The Minish Cap</h1></a></div>
 	        <div class="an-card"><a href="./launcher.html#pokemon-xy">Pokemon X&Y</h1></a></div>
     </div>
+ <script>$(".an-card").click(function() {window.location = $(this).find("a").attr("href"); return false;});</script>
   </body>
 
 </html>
